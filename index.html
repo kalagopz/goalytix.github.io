@@ -1,42 +1,71 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>My Technical Blog</title>
-  </head>
-  <body>
-    <header>
-      <h1>My Technical Blog</h1>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#tutorials">Tutorials</a></li>
-        <li><a href="#tips">Tips & Tricks</a></li>
-        <li><a href="#news">News & Updates</a></li>
-      </ul>
-    </nav>
-    <main>
-      <section id="introduction">
-        <h2>Introduction</h2>
-        <p>Welcome to My Technical Blog, where we explore the latest developments in technology and programming. In this section, we'll cover what this blog is about and what you can expect to learn here.</p>
-      </section>
-      <section id="tutorials">
-        <h2>Tutorials</h2>
-        <p>In this section, we'll share step-by-step guides and tutorials on a variety of topics, from building web applications to working with data. Whether you're a beginner or an experienced programmer, you're sure to find something useful here.</p>
-      </section>
-      <section id="tips">
-        <h2>Tips & Tricks</h2>
-        <p>In this section, we'll share tips and tricks for streamlining your workflow, optimizing your code, and staying up to date with the latest tools and technologies. Whether you're a beginner or an experienced programmer, you'll find plenty of useful information here.</p>
-      </section>
-      <section id="news">
-        <h2>News & Updates</h2>
-        <p>In this section, we'll keep you informed of the latest news and updates in the world of technology and programming. From new releases and trends, to analysis and commentary, you'll find everything you need to stay informed and ahead of the curve.</p>
-      </section>
-    </main>
-    <footer>
-      <p>Copyright &copy; 2023 My Technical Blog</p>
-    </footer>
-  </body>
+
+<head>
+  <title>My Blog Site</title>
+  <style>
+    /* Add some styles for the header, footer, and sidebars */
+    header {
+      background-image: url(header-bg.jpg);
+      background-size: cover;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    footer {
+      background-image: url(footer-bg.jpg);
+      background-size: cover;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    aside {
+      background-color: lightgrey;
+      width: 200px;
+      height: calc(100vh - 150px);
+      float: left;
+    }
+
+    /* Add some styles for the main content section */
+    .main-content {
+      background-color: white;
+      width: calc(100% - 200px);
+      height: calc(100vh - 150px);
+      float: right;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>My Blog Site</h1>
+  </header>
+
+  <aside>
+    <h2>About Me</h2>
+    <p>I am a blogger who loves to write about technology, lifestyle, and travel.</p>
+
+    <h2>Recent Posts</h2>
+    <ul>
+      <li><a href="#">5 Best Destinations for Tech Enthusiasts</a></li>
+      <li><a href="#">How to Balance Work and Life</a></li>
+      <li><a href="#">The Future of Virtual Reality</a></li>
+    </ul>
+  </aside>
+
+  <div class="main-content">
+    <h2>Welcome to My Blog Site</h2>
+    <p>This is where I share my thoughts and experiences with the world. I hope you enjoy reading my posts and please feel free to leave a comment.</p>
+  </div>
+
+  <footer>
+    <p>Copyright &copy; 2023 My Blog Site</p>
+  </footer>
+</body>
+
 </html>
